@@ -1,0 +1,499 @@
+/* ========================== GLOBAL ========================== */
+
+/* ========== global - HOME ========== */
+/* applies to the following pages: */
+
+/* http://dev.typeinvestigations.org/homepage-v1/ */
+/* edit link: http://dev.typeinvestigations.org/wp-admin/post.php?post=21446&action=edit */
+
+/* http://dev.typeinvestigations.org/homepage-v2/ */
+/* edit link: http://dev.typeinvestigations.org/wp-admin/post.php?post=21451&action=edit */
+
+/*hero hed*/
+#main-wrapper .vce-featured-link-article {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+/*hero dek*/
+#main-wrapper .hero-excerpt {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+/*author/date*/
+#main-wrapper .entry-meta.authors-wrapper,
+#main-wrapper .entry-meta.authors-wrapper a,
+#main-wrapper .date,
+#main-wrapper .meta-category.gray-links a,
+/* secondary author/date */
+#main-wrapper .entry-meta a,
+#main-wrapper .footer-meta-wrapper .updated {
+    text-transform: none;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+}
+
+#main-wrapper .entry-meta a {
+    font-weight: 700;
+}
+
+#main-wrapper .meta-category.gray-links,
+#main-wrapper .meta-category.gray-links a,
+#main-wrapper .nn-new-hero-meta .date,
+/* secondary author/date */
+#main-wrapper .footer-meta-wrapper .updated {
+    font-weight: 500;
+    color: #000;
+}
+
+#main-wrapper .nn-new-hero-meta {
+    padding-top: 8px;
+}
+
+/*secondary hed*/
+.vce-lay-c .entry-title {
+    text-align: left;
+    line-height: 26px;
+}
+
+.vce-lay-c .entry-title a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+/*secondary dek*/
+.vce-lay-c .entry-content {
+    text-align: left;
+    padding: 0 10px;
+}
+
+.vce-lay-c .entry-title {
+    padding: 0 10px;
+}
+
+.vce-lay-c p {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0;
+}
+
+/* secondary author/date */
+.vce-lay-c .entry-meta {
+    text-align: left;
+    padding: 0 10px 0;
+}
+
+.vce-lay-c footer {
+    text-align: left;
+}
+
+.vce-lay-c footer>.entry-meta {
+    margin-bottom: 0;
+}
+
+.footer-meta-wrapper {
+    padding-left: 10px;
+}
+
+/* secondary image */
+.meta-image.inv-list {
+    margin-bottom: 20px;
+}
+
+
+
+/* ========== global - INVESTIGATION ========== */
+/* applies to the following pages: */
+
+/* http://dev.typeinvestigations.org/investigation/2020/07/06/the-long-strange-history-of-bill-gates-population-control-conspiracy-theories-2/ */
+/* edit link: http://dev.typeinvestigations.org/wp-admin/post.php?post=21435&action=edit */
+
+/* http://dev.typeinvestigations.org/investigation/2020/07/09/the-long-strange-history-of-bill-gates-population-control-conspiracy-theories-3/ */
+/* edit link: http://dev.typeinvestigations.org/wp-admin/post.php?post=21449&action=edit */
+
+
+h1.entry-title {
+    letter-spacing: 0px;
+}
+
+.nn_sharethis {
+    margin: 0;
+}
+
+/*headline spacing*/
+.vce-single .entry-header {
+    margin: 22px 0 40px;
+}
+
+.single .investigation-subtitle {
+    margin-top: 0;
+}
+
+/*sidebars*/
+.nn_quote_right,
+.nn_quote.investigation-source.facts-hac.nn_source_right {
+    margin: 5px -20% 30px 30px;
+}
+
+.image_nn_quote_left,
+.image_nn_quote_right,
+.video_nn_quote_left,
+.video_nn_quote_right {
+    padding: 24px 10px 14px 0;
+}
+
+/*image caption*/
+.single-investigations_posts .meta-image.custom-align-center .vce-photo-caption,
+.wp-caption-text {
+    text-align: left;
+    margin-top: -18px;
+}
+
+.single-post .meta-image.custom-align-center .custom-align-center .author-img,
+.single-investigations_posts .meta-image.custom-align-center .custom-align-center .author-img {
+    padding: 0;
+    margin: 14px auto 0;
+}
+
+.single-post .meta-image.custom-align-center .vce-photo-caption,
+.single-investigations_posts .meta-image.custom-align-center .vce-photo-caption {
+    padding: 0 0 20px;
+}
+
+/*image attribution*/
+.meta-image.custom-align-center .custom-align-center .author-img,
+.quote_investigation .wp-caption .author-img {
+    text-transform: none;
+    margin-top: -14px;
+}
+
+/*remove underline from twitter icons*/
+.single .entry-content .nn_li a.fa {
+    text-decoration: none;
+}
+
+/*metacategory*/
+.meta-category a,
+.facts-hac .media-partner h3,
+.key-finding-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.9px;
+}
+
+.vce-single .entry-header .meta-category a {
+    letter-spacing: 0.9px;
+}
+
+/*hed*/
+.vce-single .entry-header .entry-title {
+    font-weight: 700;
+    line-height: 47px !important;
+    font-size: 44px;
+    max-width: 820px;
+    margin: 16px auto 12px
+}
+
+/*dek*/
+.investigation-subtitle {
+    line-height: 30px;
+    margin: 0 auto 60px;
+    max-width: 680px;
+}
+
+/*date*/
+.main-box-single .date .updated,
+.single article.investigations_posts .entry-header .entry-meta.one-line .author .fn,
+.single article.investigations_posts .entry-header .entry-meta.one-line .author .fn a {
+    font-weight: 500;
+}
+
+.single article.investigations_posts .entry-header .entry-meta.one-line .updated {
+    letter-spacing: 0;
+}
+
+.main-box-single .date .updated {
+    color: #000;
+}
+
+/*author (by)*/
+.single article.investigations_posts .entry-header .entry-meta.one-line .author .fn,
+.single article.post .entry-header .entry-meta .author .fn,
+.backstory .entry-meta .author .fn,
+.single article.projects_posts .entry-header .entry-meta .author .fn {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.single article.investigations_posts .entry-header .entry-meta.one-line .vcard.author a {
+    letter-spacing: 0;
+}
+
+.main-box-single .author a,
+.main-box-single .date .updated {
+    text-transform: none;
+}
+
+/*paragraph*/
+.single .entry-content p {
+    letter-spacing: 0px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+/*subhead*/
+.subhead {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 44px 0 10px;
+}
+
+/*image caption*/
+.meta-image .vce-photo-caption,
+.wp-caption-text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    padding: 16px 0px 0;
+}
+
+/*pull quote*/
+.quote_investigation {
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    margin: 50px -10%;
+    color: #000;
+}
+
+/*sidebar text*/
+.single .entry-content .nn_li h3,
+.single .entry-content .nn_li p {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+
+
+/* ========================== v1 - Faustina ========================== */
+
+/* ========== v1 - HOME ========== */
+/* applies to the following pages: */
+
+/* http://dev.typeinvestigations.org/homepage-v1/ */
+/* edit link: http://dev.typeinvestigations.org/wp-admin/post.php?post=21446&action=edit */
+
+.page-id-21446 .hero-wrapper .vce-featured-title .vce-featured-link-article,
+.page-id-21446 .hero-wrapper .vce-featured-header .hero-excerpt,
+.page-id-21446 .vce-lay-c .entry-title a,
+.page-id-21446 .vce-lay-c p {
+    font-family: 'Faustina';
+}
+
+.page-id-21446 .entry-meta.authors-wrapper a,
+.page-id-21446 .hero-wrapper .date,
+.page-id-21446 .nn-new-hero-meta .gray-links a,
+.page-id-21446 .vce-lay-c .entry-meta a,
+.page-id-21446 .vce-lay-c footer .updated,
+.page-id-21446 .vce-lay-c .meta-category,
+.page-id-21446 .vce-lay-c .meta-category a {
+    font-family: 'Libre Franklin';
+}
+
+
+/* ========== v1 - INVESTIGATION ========== */
+/* applies to the following pages: */
+
+/* http://dev.typeinvestigations.org/investigation/2020/07/06/the-long-strange-history-of-bill-gates-population-control-conspiracy-theories-2/ */
+/* edit link: http://dev.typeinvestigations.org/wp-admin/post.php?post=21435&action=edit */
+
+
+/*v1 - hed*/
+.postid-21435 .vce-single .entry-header .entry-title,
+
+/*v1 - dek*/
+.postid-21435 .investigation-subtitle,
+
+/*v1 - paragraph*/
+.postid-21435.single .entry-content p {
+    font-family: 'Faustina';
+}
+
+/*v1 - metacategory*/
+.postid-21435 .meta-category a,
+.postid-21435 .facts-hac .media-partner h3,
+.postid-21435 .key-finding-header,
+
+/*v1 - image caption*/
+.postid-21435 .meta-image .vce-photo-caption,
+.postid-21435 .wp-caption-text {
+    font-family: 'Libre Franklin' !important;
+}
+
+/*v1 - date*/
+.postid-21435 .main-box-single .date .updated,
+.postid-21435 .single article.investigations_posts .entry-header .entry-meta.one-line .author .fn,
+.postid-21435 .single article.investigations_posts .entry-header .entry-meta.one-line .author .fn a,
+
+/*v1 - author (by)*/
+.postid-21435.single article.investigations_posts .entry-header .entry-meta.one-line .author .fn,
+.postid-21435.single article.post .entry-header .entry-meta .author .fn,
+.postid-21435.backstory .entry-meta .author .fn,
+.postid-21435.single article.projects_posts .entry-header .entry-meta .author .fn,
+
+/*v1 - author (name)*/
+.postid-21435.single article.investigations_posts .entry-header .entry-meta.one-line .author .fn a,
+.postid-21435.single article.post .entry-header .entry-meta .author .fn a,
+.postid-21435.backstory .entry-meta .author .fn a,
+
+/*v1 - subhead*/
+.postid-21435 .subhead,
+
+/*v1 - pull quote*/
+.postid-21435 .quote_investigation,
+
+/*v1 - sidebar text*/
+.postid-21435.single .entry-content .nn_li h3,
+.postid-21435.single .entry-content .nn_li p {
+    font-family: 'Libre Franklin';
+}
+
+
+/* ========================== v2 - Crimson Pro ========================== */
+
+/* ========== v2 - HOME ========== */
+/* applies to the following pages: */
+
+/* http://dev.typeinvestigations.org/homepage-v2/ */
+/* edit link: http://dev.typeinvestigations.org/wp-admin/post.php?post=21451&action=edit */
+
+.page-id-21451 .hero-wrapper .vce-featured-title .vce-featured-link-article,
+.page-id-21451 .hero-wrapper .vce-featured-header .hero-excerpt,
+.page-id-21451 .vce-lay-c .entry-title a,
+.page-id-21451 .vce-lay-c p {
+    font-family: 'Crimson Pro';
+
+}
+
+.page-id-21451 .entry-meta.authors-wrapper a,
+.page-id-21451 .hero-wrapper .date,
+.page-id-21451 .nn-new-hero-meta .gray-links a,
+.page-id-21451 .vce-lay-c .entry-meta a,
+.page-id-21451 .vce-lay-c footer .updated,
+.page-id-21451 .vce-lay-c .meta-category,
+.page-id-21451 .vce-lay-c .meta-category a {
+    font-family: 'Work Sans';
+}
+
+.page-id-21451 #main-wrapper .vce-featured-link-article {
+    line-height: 36px;
+}
+
+.page-id-21451 #main-wrapper .hero-excerpt {
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.page-id-21451 #main-wrapper .vce-lay-c .entry-title a {
+    line-height: 22px;
+}
+
+.page-id-21451 #main-wrapper .entry-header,
+.page-id-21451 #main-wrapper .entry-title {
+    line-height: 22px;
+}
+
+
+/* ========== v2 - INVESTIGATION ========== */
+/* applies to the following pages: */
+
+/* http://dev.typeinvestigations.org/investigation/2020/07/09/the-long-strange-history-of-bill-gates-population-control-conspiracy-theories-3/ */
+/* edit link: http://dev.typeinvestigations.org/wp-admin/post.php?post=21449&action=edit */
+
+
+/*v2 - hed*/
+.postid-21449 .vce-single .entry-header .entry-title,
+/*v2 - dek*/
+.postid-21449 .investigation-subtitle,
+/*v2 - paragraph*/
+.postid-21449.single .entry-content p {
+    font-family: 'Crimson Pro';
+}
+
+/*v2 - metacategory*/
+.postid-21449 .meta-category a,
+.postid-21449 .facts-hac .media-partner h3,
+.postid-21449 .key-finding-header,
+
+/*v2 - image caption*/
+.postid-21449 .meta-image .vce-photo-caption,
+.postid-21449 .wp-caption-text {
+    font-family: 'Work Sans' !important;
+}
+
+/*v2 - date*/
+.postid-21449 .main-box-single .date .updated,
+.postid-21449 .single article.investigations_posts .entry-header .entry-meta.one-line .author .fn,
+.postid-21449 .single article.investigations_posts .entry-header .entry-meta.one-line .author .fn a,
+
+/*v2 - author (by)*/
+.postid-21449.single article.investigations_posts .entry-header .entry-meta.one-line .author .fn,
+.postid-21449.single article.post .entry-header .entry-meta .author .fn,
+.postid-21449.backstory .entry-meta .author .fn,
+.postid-21449.single article.projects_posts .entry-header .entry-meta .author .fn,
+
+/*v2 - author (name)*/
+.postid-21449.single article.investigations_posts .entry-header .entry-meta.one-line .author .fn a,
+.postid-21449.single article.post .entry-header .entry-meta .author .fn a,
+.postid-21449.backstory .entry-meta .author .fn a,
+
+/*v2 - subhead*/
+.postid-21449 .subhead,
+
+/*v2 - pull quote*/
+.postid-21449 .quote_investigation,
+
+/*v2 - sidebar text*/
+.postid-21449.single .entry-content .nn_li h3,
+.postid-21449.single .entry-content .nn_li p {
+    font-family: 'Work Sans';
+}
+
+.postid-21449 #main .entry-title {
+    font-size: 46px;
+}
+
+.postid-21449 #main p {
+    line-height: 28px;
+}
+
+.postid-21449 #main .key_findings_title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.postid-21449 #main .subhead {
+    font-weight: 800;
+}
+
+.postid-21449 #main .quote_investigation {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.postid-21449 #main .author-img {
+    margin-top: 12px;
+}
+
+.postid-21449 #main .wp-caption-text {
+    padding: 0;
+    margin-top: -16px;
+    font-size: 15px !important;
+}
